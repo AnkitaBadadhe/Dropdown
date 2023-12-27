@@ -1,0 +1,43 @@
+/* img{
+    margin-top: 20px;
+    position: relative; 
+    position: absolute; 
+    position:sticky ;
+    top: 0px;
+    left: 0px; 
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color:pink;
+}
+#cont{
+display:flex;
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: purple;
+    color: cadetblue;   
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    /* position: relative; */
+    /* top:120px; */
+    position: absolute;
+    display: none;
+}
+#drop:hover #menu {
+    display: block;
+    
+}
